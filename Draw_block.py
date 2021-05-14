@@ -1,5 +1,4 @@
 import turtle as t
-import math
 
 def make_block(block):
     if block == "사각형":
@@ -13,7 +12,7 @@ def make_block(block):
         t.left(90)
         t.forward(y)
     elif block == "삼각형":
-        x = int(input("하나의 변을 입력해주세요:"))
+        x = int(input("하나의 변의 길이를 입력해주세요:"))
         t.forward(x)
         t.left(120)
         t.forward(x)
