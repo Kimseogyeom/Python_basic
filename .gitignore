@@ -1,5 +1,5 @@
 midterm.py
 data.txt
 read_txt.py
-.idea
-venv
+.idea/
+venv/
